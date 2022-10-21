@@ -1,0 +1,130 @@
+:root {
+      --primary-color: rgb(0, 206, 155);
+      --secondary-color: rgb(65, 193, 252);
+      --dark-color: black;
+      --light-color: rgb(186, 179, 179);
+      --bg-color: rgb(60, 43, 43);
+      --main-bg-color: rgb(29, 29, 29);
+      --max-width: 1100px;
+}
+
+/* lesson utility */
+
+#home-articles .article-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
+      padding: 0rem;
+      grid-column: 1 / span 1;
+}
+
+.l-p {
+      display: inline-block;
+      font-size: 21px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home-articles .container .article-container .l2-card .b-design {
+      text-decoration: none;
+      color: black;
+}
+
+.h1-design {
+      font-size: 25px;
+      
+}
+
+.t-d {
+      display: inline-block;
+      font-size: 21px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.test {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      display: inline-block;
+      padding: 2rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      color: black;
+      background: var(--primary-color);
+      border-radius: 15px;
+}
+
+.h-design {
+      display: inline-block;
+      background: var(--primary-color);
+      padding: 1rem 2rem;
+      border-radius: 15px;
+}
+
+/* Lessons menu -TEST- */
+.article-container-h {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 1rem;
+}
+
+.article-container-h .a-design {
+      margin: 1rem;
+}
+
+.article-container-h .b-design {
+      margin: 1rem;
+}
+
+.h-t {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background: var(--secondary-color);
+      border-radius: 1rem;
+}
+
+.t-btn {
+      margin: 1rem;
+      background: var(--dark-color);
+      color: var(--light-color);
+      height: 3rem;
+      border-radius: 20px;
+}
+
+.t-btn:hover {
+      background: var(--light-color);
+      color: var(--dark-color);
+}
+
+#home-articles .article-container-2 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+      padding: 0rem;
+      grid-column: 4 / span 2;
+}
+
+#home-articles .container .article-container-2 .a-design {
+      padding: 7rem;
+      border-radius: 7rem;
+      background: var(--secondary-color);
+      text-decoration: none;
+      color: black;
+}
+
+#home-articles .container .article-container-2 .a-design:hover {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      background: var(--primary-color);
+      opacity: 0.7;
+}
+
+#home-articles .container .article-container-2{
+      text-align: center;
+      justify-content: center;
+      padding: 5rem;
+}
+
+#home-articles .container .article-container-2 .l-card {
+      text-align: center;
+      justify-content: center;
+      padding: 1rem;
+}

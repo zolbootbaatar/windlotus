@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../css/main.css">
+      <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+      <link rel="stylesheet" href="../css/lesson.css">
+      <script src="https://kit.fontawesome.com/8a206a71da.js" crossorigin="anonymous"></script>
+      <title>LESSON Page</title>
+</head>
+<body>
+      <nav id="main-nav">
+            <div class="container">
+                  <div class="social">
+                        <a href="https://www.facebook.com/zolbootbaatar.z" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                  </div>
+                  <div class="logo">
+                              <a href="../index.html" class="logo-a"><h1>WINDLOTUS</h1></a>
+                  </div>
+                  <ul>
+                        <li><a href="../index.html" class="current">Home</a></li>
+                  </ul>
+            </div>
+      </nav>
+
+      <!-- homescreen news grid -->
+      <section id="home-articles" class="py-2">
+            <div id="history">
+                  <div class="history">
+                        <a href="../lesson.html">LESSONS</a> > 
+                        <a href="#">Иррационал тоо, бодит тоо олонлог</a>
+                  </div>
+                  <div class="history">
+                        <a href="../test/test.html">TEST</a> >
+                        <a href="#">Иррационал тоо, бодит тоо олонлог</a>
+                  </div>
+            </div>
+            <div class="container">
+                  <div>
+                        <h3 class="h-t">√
+                              6
+                              −
+                              3
+                              √
+                              3
+                               ба 
+                              1
+                              -ийн аль нь их вэ?</h3> <br>
+                        <article class="test">
+                              <p>
+                                    <input type="radio" name="answer-1">
+                                    <label for="css">qweasdas</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-1" id="correct-1">
+                                    <label for="css">qwe</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-1">
+                                    <label for="css">qwe</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-1">
+                                    <label for="css">qwe</label>
+                              </p>
+                        </article>
+                  </div>
+                  <div>
+                        <h3 class="h-t">√4+√2 ба 3-ийн аль нь их вэ?</h3> <br>
+                        <article class="test">
+                              <p>
+                                    <input type="radio" name="answer-2">
+                                    <label for="css">qweasdas</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-2" id="correct-2">
+                                    <label for="css">qwe</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-2">
+                                    <label for="css">qwe</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-2">
+                                    <label for="css">qwe</label>
+                              </p>
+                        </article>
+                  </div>
+                  <div>
+                        <h3 class="h-t">5
+                              √
+                              1990
+                              1992
+                               ба 
+                              5
+                              √
+                              1989
+                              1991
+                              -ийн аль нь их вэ?</h3> <br>
+                        <article class="test">
+                              <p>
+                                    <input type="radio" name="answer-3">
+                                    <label for="css">qweasdas</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-3" id="correct-3">
+                                    <label for="css">qwe</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-3">
+                                    <label for="css">qwe</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-3">
+                                    <label for="css">qwe</label>
+                              </p>
+                        </article>
+                  </div>
+                  <div>
+                        <h3 class="h-t">3
+                              √
+                              12
+                              +
+                              4
+                              √
+                              5
+                              ⋅
+                              3
+                              √
+                              12
+                              −
+                              4
+                              √
+                              5 илэрхийллийн утгыг ол.</h3> <br>
+                        <article class="test">
+                              <p>
+                                    <input type="radio" name="answer-4">
+                                    <label for="css">1</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-4" id="correct-4">
+                                    <label for="css">2</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-4">
+                                    <label for="css">3</label>
+                              </p>
+                              <p>
+                                    <input type="radio" name="answer-4">
+                                    <label for="css">4</label>
+                              </p>
+                        </article>
+                  </div>
+                  <input type="button" name="submit" value="submitQuiz" onclick="result()" class="t-btn">
+            </div>
+      </section>
+
+      <script>
+            function result() {
+
+                  var score = 0;
+
+                  if(document.getElementById('correct-1').checked) {
+                        score++;
+                  }
+                  if(document.getElementById('correct-2').checked) {
+                        score++;
+                  }
+                  if(document.getElementById('correct-3').checked) {
+                        score++;
+                  }
+                  if(document.getElementById('correct-4').checked) {
+                        score++;
+                  }
+
+                  alert('your score is ' + score);
+                  // document.write('your score is ' + score);
+            }
+      </script>
+
+      <!-- footer -->
+      <div id="main-footer" class="p-1">
+            <div class="container footer-container">
+                  <div>
+                        <img src="./img/40-408570_simple-drawing-batman-logo-small-hd-png-download.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, corporis velit quia minima nisi molestias id temporibus est eaque necessitatibus?</p>
+                  </div>
+                  <div>
+                        <h3>E-mail Sign Up</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolores. Voluptates asperiores, sed neque modi aperiam laborum? Saepe, consequatur eaque!</p>
+                        <form>
+                              <input type="email" placeholder="Enter Email...">
+                              <input type="submit" value="Subscribe" class="btn btn-secondary">
+                        </form>
+                  </div>
+                  <div>
+                        <h3>Site Link</h3>
+                        <ul class="list">
+                              <li><a href="#">Help Center</a></li>
+                              <li><a href="#">Respect</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Contract</a></li>
+                        </ul>
+                  </div>
+                  <div>
+                        <h3>Join to my team</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus autem dignissimos itaque vero adipisci unde commodi natus asperiores optio officia aliquam, saepe, accusamus, incidunt dolorum dolores praesentium quasi atque tempora.</p>
+                        <a href="#" class="btn btn-secondary">Join</a>
+                  </div>
+                  <div>
+                        <p>Copyright &copy 2019, All rights reserved</p>
+                  </div>
+            </div>
+      </div>
+</body>
+</html>
