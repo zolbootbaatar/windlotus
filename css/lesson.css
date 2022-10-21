@@ -59,6 +59,14 @@
       border-radius: 15px;
 }
 
+.problem {
+      padding: 1rem;
+      background: var(--dark-color);
+      color: var(--light-color);
+      border-radius: 15px;
+      border: solid 7px var(--primary-color);
+}
+
 /* Lessons menu -TEST- */
 .article-container-h {
       display: grid;
