@@ -50,8 +50,7 @@
             grid-column: 1;
       }
 
-      #main-footer .footer-container >*:first-child,
-      #main-footer .footer-container >*:nth-child(2){
+      #main-footer .footer-container{
             border-bottom: #555 dotted 1px;
             padding: 1rem;
       }
