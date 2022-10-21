@@ -18,6 +18,23 @@
       grid-column: 1 / span 1;
 }
 
+.article-container-2 {
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+      margin-top: 2rem;
+      text-align: center;
+      justify-content: center;
+      padding: 0;
+}
+
+.article-container-2 .l-card {
+      padding: 0;
+      text-align: center;
+      justify-content: center;
+      padding: 0;
+      margin: 0px;
+}
+
 .l-p {
       display: inline-block;
       font-size: 21px;
@@ -102,7 +119,7 @@
       color: var(--dark-color);
 }
 
-#home-articles .article-container-2 {
+/* #home-articles .article-container-2 {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 2rem;
@@ -135,4 +152,4 @@
       text-align: center;
       justify-content: center;
       padding: 1rem;
-}
+} */
