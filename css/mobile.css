@@ -3,7 +3,7 @@
       --secondary-color: rgb(65, 193, 252);
       --dark-color: black;
       --light-color: rgb(186, 179, 179);
-      --bg-color: rgb(20, 20, 20);
+      --bg-color: rgb(39, 39, 39);
       --main-bg-color: rgb(29, 29, 29);
       --max-width: 1100px;
       --menu-bg-color: rgb(21, 21, 21);
@@ -92,7 +92,7 @@
             grid-row: 1;
       }
 
-      body {
+      .body {
             background: var(--main-bg-color);
       }
 }
