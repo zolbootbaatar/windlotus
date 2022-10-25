@@ -1,3 +1,22 @@
+:root {
+      --primary-color: rgb(0, 206, 155);
+      --secondary-color: rgb(65, 193, 252);
+      --dark-color: black;
+      --light-color: rgb(186, 179, 179);
+      --bg-color: rgb(20, 20, 20);
+      --main-bg-color: rgb(29, 29, 29);
+      --max-width: 1100px;
+      --menu-bg-color: rgb(21, 21, 21);
+}
+
+.light-theme {
+      --main-bg-color: rgb(214, 214, 214);
+      /* --main-bg-color: white; */
+      --primary-color: rgb(3, 97, 64);
+      --secondary-color: rgb(0, 79, 164);
+      --menu-bg-color: rgb(145, 145, 145);
+}
+
 /* Main Menu */
 #main-nav .social {
       display: none;
@@ -71,5 +90,9 @@
 
       .page-container >*:first-child {
             grid-row: 1;
+      }
+
+      body {
+            background: var(--main-bg-color);
       }
 }
