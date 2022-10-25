@@ -239,7 +239,7 @@ img {
 
 #showcase::before {
       content: '';
-      background: url(../img/Дэлхийн\ хамгийн\ шилдэг\ мөрдөгч\ L.png) no-repeat center/cover ;
+      /* background: url(../img/Дэлхийн\ хамгийн\ шилдэг\ мөрдөгч\ L.png) no-repeat center/cover ; */
       position: absolute;
       top: 0;
       left: 0%;
