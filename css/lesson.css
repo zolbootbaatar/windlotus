@@ -119,6 +119,17 @@
       color: var(--dark-color);
 }
 
+/* light && dark theme */
+
+#main-nav #l-d {
+      margin: 10px;
+      width: 40px;
+      height: 40px;
+      background: var(--primary-color);
+      color: var(--dark-color);
+      border: none;
+}
+
 /* #home-articles .article-container-2 {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
