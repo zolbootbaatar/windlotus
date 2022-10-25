@@ -10,7 +10,8 @@
 }
 
 .light-theme {
-      --main-bg-color: rgb(214, 214, 214);
+      /* --main-bg-color: rgb(214, 214, 214); */
+      --main-bg-color: white;
       --primary-color: rgb(3, 97, 64);
       --secondary-color: rgb(0, 79, 164);
       --menu-bg-color: rgb(145, 145, 145);
