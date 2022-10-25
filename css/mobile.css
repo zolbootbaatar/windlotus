@@ -5,7 +5,7 @@
 
 #main-nav .container {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 5fr 3fr 1fr;
       /* grid-gap: 9.2rem; */
 }
 
@@ -34,6 +34,13 @@
       grid-column: 1;
 }
 
+/* test lesson article-container */
+
+#home-articles .article-container-h {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+}
+
 @media(max-width: 600px) {
 
       #main-nav .logo-a h1 {
@@ -42,7 +49,7 @@
       /* stack grid items */
       #showcase .showcase-container,
       #home-articles .article-container,
-      #main-footer .footer-container {
+      #main-footer .footer-container, .article-container-h {
             grid-template-columns: 1fr;
       }
 
